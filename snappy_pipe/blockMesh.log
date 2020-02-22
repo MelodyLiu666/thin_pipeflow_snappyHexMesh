@@ -1,0 +1,71 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : blockMesh
+Date   : Feb 22 2020
+Time   : 15:43:27
+Host   : "DESKTOP-G4K9PBL"
+PID    : 1526
+I/O    : uncollated
+Case   : /home/xiaoyu/OpenFOAM/xiaoyu-7/run/cavity/snappy_pipe
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/home/xiaoyu/OpenFOAM/xiaoyu-7/run/cavity/snappy_pipe/system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.1 .. 0.1
+        j : 0.1 .. 0.1
+        k : 0.42 .. 0.42
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-1 -1 -1) (1 1 41)
+  nPoints: 44541
+  nCells: 40000
+  nFaces: 124400
+  nInternalFaces: 115600
+----------------
+Patches
+----------------
+  patch 0 (start: 115600 size: 2000) name: movingWall
+  patch 1 (start: 117600 size: 6000) name: fixedWalls
+  patch 2 (start: 123600 size: 800) name: frontAndBack
+
+End
+
