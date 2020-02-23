@@ -7,12 +7,12 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7
 Exec   : blockMesh
-Date   : Feb 22 2020
-Time   : 15:43:27
+Date   : Feb 23 2020
+Time   : 11:21:19
 Host   : "DESKTOP-G4K9PBL"
-PID    : 1526
+PID    : 725
 I/O    : uncollated
-Case   : /home/xiaoyu/OpenFOAM/xiaoyu-7/run/cavity/snappy_pipe
+Case   : /home/xiaoyu/Workspace_xiaoyu/gitHub/thin_pipeflow_snappyHexMesh/snappy_pipe
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -21,8 +21,10 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
+Deleting polyMesh directory
+    "/home/xiaoyu/Workspace_xiaoyu/gitHub/thin_pipeflow_snappyHexMesh/snappy_pipe/constant/polyMesh"
 Creating block mesh from
-    "/home/xiaoyu/OpenFOAM/xiaoyu-7/run/cavity/snappy_pipe/system/blockMeshDict"
+    "/home/xiaoyu/Workspace_xiaoyu/gitHub/thin_pipeflow_snappyHexMesh/snappy_pipe/system/blockMeshDict"
 Creating block edges
 No non-planar block faces defined
 Creating topology blocks
